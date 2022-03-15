@@ -14,6 +14,10 @@ namespace task_2
             int[] array = {-4,-5,6,4,2,3};
             
             method(ref array);
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }
            
 
         }
@@ -30,7 +34,7 @@ namespace task_2
                    
                 }
      
-               Console.WriteLine(array[i]);
+              
             }
 
             return array;
